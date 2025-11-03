@@ -1,7 +1,7 @@
 -- DARK Hub - Blox Fruits Script 
 -- By: GHOSTSHADOW
 
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Rayfield =loadstring(game:HttpGet('https://sirius.menu/sirius'))()
 local VirtualInputManager = game:GetService("VirtualInputManager")
 local Players = game:GetService("Players")
 local Workspace = game:GetService("Workspace")
