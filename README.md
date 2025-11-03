@@ -11,7 +11,7 @@ local TeleportService = game:GetService("TeleportService")
 local Player = Players.LocalPlayer
 local Character = Player.Character or Player.CharacterAdded:Wait()
 
--- Configurações
+
 getgenv().Settings = {
     AutoFarm = false,
     AutoQuest = false,
@@ -28,7 +28,6 @@ getgenv().Settings = {
     AttackDistance = 10
 }
 
--- Variáveis do sistema de quest
 getgenv().World1 = false
 getgenv().World2 = false
 getgenv().World3 = false
